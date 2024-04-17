@@ -1,10 +1,5 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\UsersController;
-use Illuminate\Support\Facades\Route;
-//use Symfony\Component\Routing\Annotation\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,6 +10,11 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\UsersController;
+use Illuminate\Support\Facades\Route;
+//use Symfony\Component\Routing\Annotation\Route;
 
 Route::get('/', function () {
     return view('/bienvenue');

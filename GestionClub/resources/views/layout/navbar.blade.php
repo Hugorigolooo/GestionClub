@@ -3,7 +3,7 @@
     <div class="container-fluid">
 
         <a class="navbar-brand" href="/" style="display: inline-block;">
-            <img src="{{asset('img/rameur.png')}}" alt="" width="50px" height="50px" style="display: inline-block;">
+            <img src="{{asset('img/vaa.png')}}" alt="" width="50px" height="50px" style="display: inline-block;">
             <span style="display: inline-block; vertical-align: middle;">Gestion club</span>
         </a>
 
