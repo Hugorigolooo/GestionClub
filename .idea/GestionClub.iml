@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/GestionClub/tests/Unit" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/GestionClub/spec" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/GestionClub/vendor/brick/math" />
       <excludeFolder url="file://$MODULE_DIR$/GestionClub/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/GestionClub/vendor/dflydev/dot-access-data" />
@@ -135,6 +136,8 @@
       <excludeFolder url="file://$MODULE_DIR$/GestionClub/vendor/laravel-lang/locales" />
       <excludeFolder url="file://$MODULE_DIR$/GestionClub/vendor/laravel-lang/native-locale-names" />
       <excludeFolder url="file://$MODULE_DIR$/GestionClub/vendor/laravel/breeze" />
+      <excludeFolder url="file://$MODULE_DIR$/GestionClub/vendor/carbonphp/carbon-doctrine-types" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
