@@ -1,11 +1,11 @@
-@extends("layout.master")
+@extends("layouts.master")
 @section('content')
     <!--Start project here-->
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <div class="view overlay hm-white-light z-depth-1-half">
-                    <img src="{{asset('img/logo_diademe.png')}}" class="img-fluid" alt="">
+                <div  class="view overlay hm-white-light z-depth-1-half ">
+                    <img src="{{asset('img/logo-diademe.png')}}" class="img-fluid" alt="lol" style="margin-top: 2rem;">
                 </div>
                 <br>
             </div>
@@ -13,7 +13,7 @@
             <div class="col-md-9">
                 <h2 class="h2-responsive">Lycée Diadème, Te Tara O Maiao (Pirae)</h2>
                 <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies euismod arcu. Aliquam
+                <p>LOL Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ultricies euismod arcu. Aliquam
                     imperdiet laoreet nibh, sed posuere dolor feugiat sed. In
                     in dolor et metus cursus ultrices. Nullam
                     blandit eu est a mollis. Cras elit quam, semper id ornare
@@ -34,9 +34,8 @@
                     Integer libero libero, sodales et feugiat ut, finibus vel
                     arcu. Ut quis tortor rhoncus, blandit est
                     Sed gravida consectetur ex, non viverra dui venenatis a.</p>
-                <a href="https://lycee2pirae.com/" class="btn btn-primary">Plus
-                    d'info!</a>
+                <a href="https://lycee2pirae.com/" class="btn btn-primary">Plus d'info!</a>
             </div>
         </div>
     </div>
-    @endsection
+@endsection

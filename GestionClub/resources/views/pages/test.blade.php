@@ -43,12 +43,6 @@
             </div>
         </form>
 
-        <form action="{{ route('users.destroy', $user) }}" method="POST" class="mx-auto py-2 px-4">
-            @csrf
-            @method('Delete')
-            <input type="submit" class="cursor-pointer inline-flex items-center w-1/4 py-4 border border-gray-400 shadow-sm text-base font-medium rounded-md text-gray-700 bg-red-500 justify-center" value="Supprimer">
-
-        </form>
 
     </div>
 @endsection

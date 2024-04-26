@@ -1,7 +1,7 @@
-@extends("layout.master")
+@extends("layouts.master")
 @section('title')
     Contact
 @endsection
 @section('content2')
-    <h1>Contact</h1>
+    <h1>contact1</h1>
 @endsection
