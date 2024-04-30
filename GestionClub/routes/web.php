@@ -3,7 +3,6 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,7 +13,6 @@ use App\Http\Controllers\IndexController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
 Route::get('/', [IndexController::class, 'index']);
 
 Route::get('/apropos', function () {
