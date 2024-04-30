@@ -56,3 +56,5 @@ Route::delete('/users/{user}', [\App\Http\Controllers\UsersController::class, 'd
 
 require __DIR__.'/auth.php';
 
+
+
