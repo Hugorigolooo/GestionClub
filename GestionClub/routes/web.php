@@ -21,10 +21,6 @@ Route::get('/apropos', function () {
     return view('/pages/apropos');
 });
 
-Route::get('/test', function () {
-    return view('/pages/test');
-});
-
 Route::get('/contact', function () {
     return view('/pages/contact');
 });

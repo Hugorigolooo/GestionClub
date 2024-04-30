@@ -20,9 +20,6 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-2" href="/test">test</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link mx-2" href="/apropos">A propos</a>
                 </li>
                 <li class="nav-item">
@@ -38,7 +35,7 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         @auth
 
-                            <li><a class="dropdown-item  bi bi-person-fill" href="{{ route('users.edit', \Illuminate\Support\Facades\Auth::user()) }}">Profil</a></li>
+                            <li><a class="dropdown-item  bi bi-person-fill" href="{{ route('profile.edit', \Illuminate\Support\Facades\Auth::user()) }}">Profil</a></li>
 
                             @if(Auth::user()->admin)
 {{--                                <form action="{{ route('dashboard') }}" method="post">--}}
