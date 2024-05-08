@@ -20,6 +20,13 @@
             <x-input-error :messages="$errors->get('email')" class="mt-2" />
         </div>
 
+        <!-- Phone Number -->
+        <div class="mt-4">
+            <x-input-label for="numTel" :value="__('numTel')" />
+            <x-text-input id="numTel" class="block mt-1 w-full" type="numTel" name="numTel" :value="old('numTel')" required  />
+            <x-input-error :messages="$errors->get('numTel')" class="mt-2" />
+        </div>
+
         <!-- Password -->
         <div class="mt-4">
             <x-input-label for="password" :value="__('Password')" />

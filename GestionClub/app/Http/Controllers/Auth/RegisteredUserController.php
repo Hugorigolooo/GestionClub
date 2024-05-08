@@ -34,13 +34,25 @@ class RegisteredUserController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:'.User::class],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
+            'numTel' => ['required', 'string'],
         ]);
+
+
+
+        // Supprimer tous les caractères non numériques
+        $numTel = preg_replace('/[^0-9]/', '', $request->numTel);
+
+        // Formater le numéro de téléphone au format français
+        $numTelFormatted = '+689 ' . substr($numTel, 1, 2) . ' ' . substr($numTel, 3, 2) . ' ' . substr($numTel, 5, 2) . ' ' . substr($numTel, 7, 2) . ' ' . substr($numTel, 9);
 
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
+            'numTel' => $numTelFormatted, // Utiliser le numéro de téléphone formaté
         ]);
+
+
 
         event(new Registered($user));
 
